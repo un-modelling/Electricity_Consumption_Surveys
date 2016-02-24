@@ -28,6 +28,7 @@ pip install statsmodel
 * (Optional) iPython installed on your machine
 ```
 pip install ipython
+pip install mpltools
 ```
 
 ### Installing
