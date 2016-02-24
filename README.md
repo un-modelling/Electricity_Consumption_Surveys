@@ -35,7 +35,7 @@ pip install mpltools
 1. Clone this repository / download the zip file
 2. Navigate to ipc_microsim_tool folder
 
-#### Method 1 : Using python interpreter
+#### Method 1 : Using python CLI
 3. Run python by typing this command on your terminal
 ```
 python
