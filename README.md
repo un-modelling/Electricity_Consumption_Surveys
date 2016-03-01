@@ -5,10 +5,11 @@ Estimating the demand for electricity is a critical step in the design of a medi
 ## Getting Started
 
 This repository contains a python module : [IPCmicrosimTool](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/blob/master/ipc_microsim_tool/ipc_microsim_tool.py) that can be used to run micro-simulation. It contains 2 basic component : 
-* Model : IPCmicrosimTool [module](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/blob/master/ipc_microsim_tool/ipc_microsim_tool.py)
+* [Model](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/blob/master/ipc_microsim_tool/ipc_microsim_tool.py) : IPCmicrosimTool module
 * [Example code](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/blob/master/ipc_microsim_tool/ipc_microsim_tool.ipynb) on how to run the model using iPython
 * [Data input](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/tree/master/ipc_microsim_tool/data)
 * [Result](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/tree/master/ipc_microsim_tool/result)
+* [Paper](https://github.com/UN-DESA-Modelling/Electricity_Consumption_Surveys/blob/master/IPC.microsim.tool.pdf)
 
 ### Prerequisities
 
