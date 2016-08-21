@@ -1,6 +1,7 @@
+
 '''
 Rohan Koodli
-scikit-learn implementation of WPP dataset
+scikit-learn implementation of Electricity Consumption Surveys project
 UN-DESA Modeling Tools
 '''
 
@@ -26,17 +27,20 @@ projections.drop(projections.columns[[0,1,2,3,70,71,72,73,74,75,76,77,78,79,80,8
 medVariance_projections = np.array(projections[0:273])
 highVariance_projections = np.array(projections[274:547])
 lowVariance_projections = np.array(projections[548:821])
+constantFertility_projections = np.array(projections[822:1095])
 
 estimates = np.array(estimates)
 from sklearn import ensemble,tree,neighbors
 rfr = ensemble.RandomForestRegressor()
 dtr = tree.DecisionTreeRegressor()
 knr = neighbors.KNeighborsRegressor()
+#nnn = neural_network.BernoulliRBM()
 
 from sklearn.cross_validation import cross_val_score
 print cross_val_score(rfr,estimates,medVariance_projections)
 print cross_val_score(dtr,estimates,medVariance_projections)
 print cross_val_score(knr,estimates,medVariance_projections)
+
 
 
 
