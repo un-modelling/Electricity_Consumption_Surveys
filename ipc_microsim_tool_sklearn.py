@@ -8,11 +8,11 @@ UN-DESA Modeling Tools
 import pandas as pd
 import numpy as np
 
-estimates = pd.read_csv('\Users\Rohan\Documents\GitHub\Electricity_Consumption_Surveys\ipc_microsim_tool\data\WPP-ESTIMATES-1950-2015.tab.txt',
+estimates = pd.read_csv(path + '\data\WPP-ESTIMATES-1950-2015.tab.txt',
                         sep='\t', index_col=None, na_values='')
 
 
-projections = pd.read_csv('\Users\Rohan\Documents\GitHub\Electricity_Consumption_Surveys\ipc_microsim_tool\data\WPP-PROJECTIONS-2015-2100.tab.txt',
+projections = pd.read_csv(path + '\data\WPP-PROJECTIONS-2015-2100.tab.txt',
                           sep='\t',index_col=None,na_values='')
 
 #print projections[0:2]
