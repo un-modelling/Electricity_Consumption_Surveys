@@ -2,6 +2,7 @@
 Author: Rohan Koodli
 Implementing Electricity Consumption Surveys with sklearn
 Version 2.0
+This file is under active development.
 '''
 
 import pandas as pd
