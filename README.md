@@ -14,22 +14,22 @@ This repository contains a python module : [IPCmicrosimTool](https://github.com/
 ### Prerequisities
 
 * Python 2.7 installed on your machine. Follow the installation instruction on their downloads [page](https://www.python.org/downloads/). If you are using [brew](http://brew.sh/) on your OSX, run this command on your terminal : 
-```
-brew install python
+```bash
+$ brew install python
 ```
 * Required libraries installed on your machine. Run this command on your terminal : 
-```
-pip install numpy
-pip install scipy
-pip install pandas
-pip install matplotlib
-pip install patsy
-pip install statsmodel
+```bash
+$ pip install numpy
+$ pip install scipy
+$ pip install pandas
+$ pip install matplotlib
+$ pip install patsy
+$ pip install statsmodel
 ```
 * (Optional) iPython installed on your machine
-```
-pip install ipython
-pip install mpltools
+```bash
+$ pip install ipython
+$ pip install mpltools
 ```
 
 ### Installing
@@ -38,17 +38,17 @@ pip install mpltools
 
 #### Method 1 : Using python CLI
 3. Run python by typing this command on your terminal
-```
-python
+```bash
+$ python
 ```
 4. Import the module
-```
+```python
 from ipc_microsim_tool import IPCmicrosimTool as imt
 ```
 #### Method 2 : Using ipython
 5. Run ipython by typing this command on your terminal
-```
-ipython notebook
+```bash
+$ ipython notebook
 ```
 6. Navigate to localhost:8888/tree on your browser
 7. Open ipc_microsim_tool.ipynb
